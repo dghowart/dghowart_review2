@@ -12,4 +12,10 @@ public final class Item {
                 key = keyValue;
         }
         // further components and methods
+        public int getKey() {
+        	return key;
+        }
+        public void setKey(int key) {
+        	this.key = key;
+        }
 }
